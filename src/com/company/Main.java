@@ -18,12 +18,14 @@ public class Main {
 //
 //        List<String> ls= Arrays.asList("i","need "," leave ","everything");
 //        ls.stream().map(str->str.length()).forEach(System.out::println);
-//
+
 
 
         List<Integer> ls=Arrays.asList(3,8,90,95,53187);
         ls.stream().filter(num->num%5==0).forEach(System.out::println);
 
+        List<Integer> ls1=Arrays.asList(3,8,992094,9032,95,53187);
+        ls.stream().filter(num->num%5==0).forEach(System.out::println);
 
 
 
