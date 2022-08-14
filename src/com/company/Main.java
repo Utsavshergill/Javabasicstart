@@ -28,6 +28,10 @@ public class Main {
         ls.stream().filter(num->num%5==0).forEach(System.out::println);
 
 
+        List<Integer> ls3=Arrays.asList(3,365,3670,96375,5387);
+        ls.stream().filter(num->num%5==0).forEach(System.out::println);
+
+
 
     }
 }
